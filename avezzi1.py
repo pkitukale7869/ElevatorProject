@@ -23,7 +23,7 @@ st.markdown(
 # Hero Section
 st.image(
     r"img1.jpg", 
-    caption="Rising Above Expectations", use_column_width=True
+    caption="Rising Above Expectations", use_container_width=True
 )
 st.button("Explore Services", key="hero_button")
 
@@ -52,7 +52,7 @@ images = [
 cols = st.columns(3)
 for i, img in enumerate(images):
     with cols[i]:
-        st.image(img, caption=f"Project {i+1}", use_column_width=False, width=400)
+        st.image(img, caption=f"Project {i+1}", use_container_width=False, width=400)
         st.markdown(
             """
             <style>
