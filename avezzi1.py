@@ -59,7 +59,7 @@ st.markdown(
 )
 cols = st.columns(3)
 services = [
-    ("Installation", "We provide state-of-the-art elevator installations for residential, commercial, and industrial spaces."),
+    ("Installation", "We provide advanced elevator installations for residential, commercial, and industrial spaces."),
     ("Maintenance", "Keep your elevators running smoothly with our regular maintenance services."),
     ("Modernization", "Upgrade your existing elevators with the latest technology and designs.")
 ]
